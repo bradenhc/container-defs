@@ -9,3 +9,4 @@ os=Linux
 
 [conf]
 tools.build:compiler_executables = {"c": "/opt/llvm/bin/clang", "cpp": "/opt/llvm/bin/clang++"}
+tools.cmake.cmaketoolchain:generator = Ninja
