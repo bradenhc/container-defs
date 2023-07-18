@@ -90,3 +90,4 @@ USER cppdev:devs
 # mount point for a volume when using this container for development.
 WORKDIR /home/cppdev
 COPY .bashrc .bashrc
+COPY --chown=cppdev:devs default /home/cppdev/.conan2/profiles/default
